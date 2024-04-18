@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bed Booking</title>
+    <link rel="stylesheet" href="beds.css">
+</head>
+<body>
+    <header>
+        <h1>Bed Booking</h1>
+    </header>
+
+    <main>
+        <div id="bedsContainer">
+            <h2>Available Beds</h2>
+            <div class="bedRow" id="generalBeds">
+                <!-- General Beds will be populated here -->
+            </div>
+            <div class="bedRow" id="icuBeds">
+                <!-- ICU Beds will be populated here -->
+            </div>
+        </div>
+
+        <button onclick="proceedToCheckout()" id="checkoutButton" class="hidden">Proceed to Checkout</button>
+    </main>
+
+    <script src="beds.js"></script>
+</body>
+</html>
